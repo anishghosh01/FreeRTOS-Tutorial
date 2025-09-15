@@ -64,8 +64,8 @@ all: main-build
 main-build: 3_Task_Parameters.elf secondary-outputs
 
 # Tool invocations
-3_Task_Parameters.elf 3_Task_Parameters.map: $(OBJS) $(USER_OBJS) C:\Users\anish\OneDrive\Desktop\RTOS_TUTORIAL\3_Task_Parameters\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "3_Task_Parameters.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\anish\OneDrive\Desktop\RTOS_TUTORIAL\3_Task_Parameters\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_Task_Parameters.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+3_Task_Parameters.elf 3_Task_Parameters.map: $(OBJS) $(USER_OBJS) C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\3_Task_Parameters\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "3_Task_Parameters.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\3_Task_Parameters\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="3_Task_Parameters.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
