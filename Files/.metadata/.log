@@ -40,3 +40,57 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-09-15 17:20:25.474
 !MESSAGE Indexed '9_Resuming_a_Task' (34 sources, 151 headers) in 2.02 sec: 16,316 declarations; 78,631 references; 1 unresolved inclusions; 202 syntax errors; 241 unresolved names (0.25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 17:29:02.859
+!MESSAGE Indexed '12_Killing_a_Task' (35 sources, 190 headers) in 2.46 sec: 18,858 declarations; 82,313 references; 7 unresolved inclusions; 235 syntax errors; 1,405 unresolved names (1.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 18:16:39.275
+!MESSAGE Indexed '10_Blocking_a_Task' (35 sources, 189 headers) in 3.15 sec: 18,848 declarations; 82,279 references; 7 unresolved inclusions; 235 syntax errors; 1,405 unresolved names (1.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 18:35:54.550
+!MESSAGE Indexed '11_Executing_Task_Periodically' (37 sources, 191 headers) in 2.61 sec: 19,331 declarations; 83,004 references; 7 unresolved inclusions; 235 syntax errors; 1,405 unresolved names (1.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 19:23:21.007
+!MESSAGE Indexed '13_Idle_Task' (35 sources, 188 headers) in 2.41 sec: 19,265 declarations; 84,321 references; 1 unresolved inclusions; 202 syntax errors; 241 unresolved names (0.23%)
+!SESSION 2025-09-17 11:35:28.978 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-17 11:35:46.523
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-17 11:35:46.525
+!MESSAGE Log4j2 initialized with config file C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-17 11:35:58.219
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-17 11:36:46.702
+!MESSAGE Indexed '14_Working_With_Queues' (34 sources, 149 headers) in 6.83 sec: 16,285 declarations; 76,036 references; 7 unresolved inclusions; 1,245 syntax errors; 1,527 unresolved names (1.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-17 12:21:38.540
+!MESSAGE Indexed '15_Syncing_Queues' (35 sources, 189 headers) in 3.04 sec: 18,851 declarations; 82,328 references; 7 unresolved inclusions; 235 syntax errors; 1,405 unresolved names (1.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-17 12:49:33.717
+!MESSAGE Indexed '16_Sending_complex_data_with_Queues' (34 sources, 150 headers) in 2.1 sec: 16,316 declarations; 78,665 references; 1 unresolved inclusions; 202 syntax errors; 241 unresolved names (0.25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-17 14:10:37.004
+!MESSAGE Indexed '17_Working_With_QueueSets' (34 sources, 149 headers) in 2.12 sec: 16,295 declarations; 76,098 references; 7 unresolved inclusions; 1,245 syntax errors; 1,533 unresolved names (1.6%)
+!SESSION 2025-09-17 22:11:33.642 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-17 22:11:45.132
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-17 22:11:45.135
+!MESSAGE Log4j2 initialized with config file C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-17 22:11:59.752
+!MESSAGE Started RMI Server, listening on port 41337

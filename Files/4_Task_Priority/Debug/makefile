@@ -38,34 +38,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := 1_Task_Creation
+BUILD_ARTIFACT_NAME := 4_Task_Priority
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-1_Task_Creation.elf \
+4_Task_Priority.elf \
 
 MAP_FILES += \
-1_Task_Creation.map \
+4_Task_Priority.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-1_Task_Creation.list \
+4_Task_Priority.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: 1_Task_Creation.elf secondary-outputs
+main-build: 4_Task_Priority.elf secondary-outputs
 
 # Tool invocations
-1_Task_Creation.elf 1_Task_Creation.map: $(OBJS) $(USER_OBJS) C:\Users\anish\OneDrive\Desktop\RTOS_TUTORIAL\1_Task_Creation\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "1_Task_Creation.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\anish\OneDrive\Desktop\RTOS_TUTORIAL\1_Task_Creation\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="1_Task_Creation.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+4_Task_Priority.elf 4_Task_Priority.map: $(OBJS) $(USER_OBJS) C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\4_Task_Priority\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "4_Task_Priority.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\4_Task_Priority\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="4_Task_Priority.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -74,14 +74,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-1_Task_Creation.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "1_Task_Creation.list"
+4_Task_Priority.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "4_Task_Priority.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) 1_Task_Creation.elf 1_Task_Creation.list 1_Task_Creation.map default.size.stdout
+	-$(RM) 4_Task_Priority.elf 4_Task_Priority.list 4_Task_Priority.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

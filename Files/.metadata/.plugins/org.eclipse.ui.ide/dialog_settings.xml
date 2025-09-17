@@ -3,4 +3,28 @@
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\9_Resuming_a_Task"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\8_Suspending_a_Task"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\7_Getting_Task_Priority"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\6_Changing_Own_Priority"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\5_Changing_Task_Priority_in_run_time"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\4_Task_Priority"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\3_Task_Parameters"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\2_Creating_task_from_other_tasks"/>
+			<item value="C:\Users\anish\OneDrive\Documents\GitHub_Repositories\FreeRTOS-Tutorial\Files\1_Task_Creation"/>
+		</list>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="502"/>
+			<item key="DIALOG_Y_ORIGIN" value="35"/>
+			<item key="DIALOG_WIDTH" value="935"/>
+			<item key="DIALOG_HEIGHT" value="726"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
 </section>
